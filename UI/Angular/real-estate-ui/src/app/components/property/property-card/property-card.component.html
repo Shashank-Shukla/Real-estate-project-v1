@@ -1,16 +1,42 @@
-<div class="row">
-  <div class="shadow-lg col-sm-4 p-2">          <!-- p-number stands for padding-value -->
-    <div class="card">
-      <div class="propImg">
-        <img src="" alt="">
-      </div>
-      <div class="card-body p-2">
-        <h2>{{Property.Type}} on SALE</h2>       <!--  String Interpolation -->
-        <p>
-          "{{Property.Name}} is on Sale"<br>
-          Get it now for {{Property.Price}}!!
-        </p>
-      </div>
-    </div>
+<div class="card">
+  <div class="card-imgwrapper">
+    <span class="card-heartwrapper">
+      <!-- <img class="icon-hearticon" src="../../../../assets/icons/like-cloud-bnw.png"> -->
+      <!-- Heart icon -->
+    </span>
+    <img class="card-img-top" src="../../../../assets/images/villa_default.png">      <!-- card-img-top is a bootstrap class -->
+    <ul class="list-inline text-center card-img-icons">                               <!-- Bootstrap class that creates an inline centered list -->
+      <li class="list-inline-item">                                                   <!-- Bootstrap class that removes all list effects -->
+        <button class="btn btn-primary">
+          <img src="../../../../assets/icons/call-back.png">
+          <!-- Callback Icon -->
+        </button>                                     <!-- Request Callback -->
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <img src="../../../../assets/icons/call-now-colour.png">
+          <!-- Call Me Now Icon -->
+        </button>                                     <!-- Contact Now -->
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <img src="../../../../assets/icons/edit.png">
+          <!-- Edit Icon -->
+        </button>                                     <!-- Contact Now -->
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <img src="../../../../assets/icons/delete.png">
+          <!-- Delete Icon -->
+        </button>                                     <!-- Contact Now -->
+      </li>
+    </ul>
+  </div>
+  <div class="card-body p-2">
+    <h2>{{property.Type}} on SALE</h2>       <!--  String Interpolation -->
+    <p>
+      "{{property.Name}} is on Sale"<br>
+      Get it now for {{property.Price}}!!
+    </p>
   </div>
 </div>
