@@ -25,14 +25,22 @@
   opacity: 0.7;
 }
 
+/* .card-img-top{
+  z-index: -1;
+  overflow: hidden;
+  border: 2px black solid;
+} */
+
 .card-heartwrapper{
+  position: relative;
   float: right;
   margin: 2%;
   width: 30px;
   height: 30px;
-  display: inline-block;
+  /* display: inline-block; */
   background-image: url('../../../../assets/icons/like-cloud-bnw.png');
   background-size: contain;
+  z-index: 1;
 }
 
 /* .icon-hearticon{
@@ -77,6 +85,11 @@ li > button > img{
   filter: sepia(0);
   opacity: 1;
 }
+
+/* .card-img-top:hover{
+  filter: sepia(0);
+  opacity: 1;
+} */
 
 .card-heartwrapper:hover{
   background-image: url('../../../../assets/icons/like-cloud-colour.png');

@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Type": "House",
+    "Name": "Ash House",
+    "Price": 1000
+  },
+  {
+    "Id": 2,
+    "Type": "House",
+    "Name": "Kabuli House",
+    "Price": 2000
+  },
+  {
+    "Id": 3,
+    "Type": "Villa",
+    "Name": "Romeo Villa",
+    "Price": 1020
+  },
+  {
+    "Id": 4,
+    "Type": "Hostel",
+    "Name": "Ash PG/Hostel",
+    "Price": 5000
+  },
+  {
+    "Id": 5,
+    "Type": "Hostel",
+    "Name": "Burlyn Hostels",
+    "Price": 1099
+  },
+  {
+    "Id": 6,
+    "Type": "Villa",
+    "Name": "Auburn Villa",
+    "Price": 15200
+  }
+]
